@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  SecondTableViewController.h
 //  hw3htiruvee
 //
 //  Created by Haripriya Tiruveedhula on 6/8/17.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
 
+@interface SecondTableViewController : UITableViewController
+@property NSArray *events;
+@property NSArray *eventDates;
 
 @end
-

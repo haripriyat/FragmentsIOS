@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1100BC011EEB7E0E007E8C03 /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1100BC001EEB7E0E007E8C03 /* ThirdTableViewController.m */; };
 		112762741EEA0A71005A8FA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 112762731EEA0A71005A8FA2 /* main.m */; };
 		112762771EEA0A71005A8FA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 112762761EEA0A71005A8FA2 /* AppDelegate.m */; };
 		1127627A1EEA0A71005A8FA2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112762791EEA0A71005A8FA2 /* FirstViewController.m */; };
@@ -16,6 +17,10 @@
 		112762851EEA0A71005A8FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112762831EEA0A71005A8FA2 /* LaunchScreen.storyboard */; };
 		112762901EEA0A71005A8FA2 /* hw3htiruveeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1127628F1EEA0A71005A8FA2 /* hw3htiruveeTests.m */; };
 		1127629B1EEA0A71005A8FA2 /* hw3htiruveeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1127629A1EEA0A71005A8FA2 /* hw3htiruveeUITests.m */; };
+		112762AA1EEA16D3005A8FA2 /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112762A91EEA16D3005A8FA2 /* SecondTableViewController.m */; };
+		118086741EEAEB9F0035AB9C /* DataModel.xcdatamodelId.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 118086721EEAEB9F0035AB9C /* DataModel.xcdatamodelId.xcdatamodeld */; };
+		118086771EEAEE9D0035AB9C /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 118086761EEAEE9D0035AB9C /* Event.m */; };
+		1180867A1EEAFA700035AB9C /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 118086791EEAFA700035AB9C /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1100BBFF1EEB7E0E007E8C03 /* ThirdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTableViewController.h; sourceTree = "<group>"; };
+		1100BC001EEB7E0E007E8C03 /* ThirdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTableViewController.m; sourceTree = "<group>"; };
 		1127626F1EEA0A71005A8FA2 /* hw3htiruvee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw3htiruvee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		112762731EEA0A71005A8FA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		112762751EEA0A71005A8FA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +61,13 @@
 		112762961EEA0A71005A8FA2 /* hw3htiruveeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hw3htiruveeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1127629A1EEA0A71005A8FA2 /* hw3htiruveeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hw3htiruveeUITests.m; sourceTree = "<group>"; };
 		1127629C1EEA0A71005A8FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112762A81EEA16D3005A8FA2 /* SecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		112762A91EEA16D3005A8FA2 /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
+		118086731EEAEB9F0035AB9C /* DataModel.xcdatamodelId.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodelId.xcdatamodel; sourceTree = "<group>"; };
+		118086751EEAEE9D0035AB9C /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		118086761EEAEE9D0035AB9C /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		118086781EEAFA700035AB9C /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		118086791EEAFA700035AB9C /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +98,15 @@
 		112762661EEA0A71005A8FA2 = {
 			isa = PBXGroup;
 			children = (
+				1100BBFF1EEB7E0E007E8C03 /* ThirdTableViewController.h */,
+				1100BC001EEB7E0E007E8C03 /* ThirdTableViewController.m */,
+				118086781EEAFA700035AB9C /* AddViewController.h */,
+				118086791EEAFA700035AB9C /* AddViewController.m */,
+				118086751EEAEE9D0035AB9C /* Event.h */,
+				118086761EEAEE9D0035AB9C /* Event.m */,
+				118086721EEAEB9F0035AB9C /* DataModel.xcdatamodelId.xcdatamodeld */,
+				112762A81EEA16D3005A8FA2 /* SecondTableViewController.h */,
+				112762A91EEA16D3005A8FA2 /* SecondTableViewController.m */,
 				112762711EEA0A71005A8FA2 /* hw3htiruvee */,
 				1127628E1EEA0A71005A8FA2 /* hw3htiruveeTests */,
 				112762991EEA0A71005A8FA2 /* hw3htiruveeUITests */,
@@ -280,8 +303,13 @@
 			files = (
 				1127627D1EEA0A71005A8FA2 /* SecondViewController.m in Sources */,
 				112762771EEA0A71005A8FA2 /* AppDelegate.m in Sources */,
+				118086741EEAEB9F0035AB9C /* DataModel.xcdatamodelId.xcdatamodeld in Sources */,
 				1127627A1EEA0A71005A8FA2 /* FirstViewController.m in Sources */,
+				1100BC011EEB7E0E007E8C03 /* ThirdTableViewController.m in Sources */,
 				112762741EEA0A71005A8FA2 /* main.m in Sources */,
+				112762AA1EEA16D3005A8FA2 /* SecondTableViewController.m in Sources */,
+				1180867A1EEAFA700035AB9C /* AddViewController.m in Sources */,
+				118086771EEAEE9D0035AB9C /* Event.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +541,7 @@
 				112762A11EEA0A71005A8FA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		112762A21EEA0A71005A8FA2 /* Build configuration list for PBXNativeTarget "hw3htiruveeTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +550,7 @@
 				112762A41EEA0A71005A8FA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		112762A51EEA0A71005A8FA2 /* Build configuration list for PBXNativeTarget "hw3htiruveeUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,8 +559,22 @@
 				112762A71EEA0A71005A8FA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		118086721EEAEB9F0035AB9C /* DataModel.xcdatamodelId.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				118086731EEAEB9F0035AB9C /* DataModel.xcdatamodelId.xcdatamodel */,
+			);
+			currentVersion = 118086731EEAEB9F0035AB9C /* DataModel.xcdatamodelId.xcdatamodel */;
+			path = DataModel.xcdatamodelId.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 112762671EEA0A71005A8FA2 /* Project object */;
 }
